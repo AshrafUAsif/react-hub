@@ -22,7 +22,7 @@ const Contents = (props) => {
         <div className='flex flex-col-1 md:flex-row mx-auto'>
           <div className='text-left text-xs text-gray-600 mt-1 md:mr-2 md:mt-0'>{duration} mins read</div>
           <div className='text-left'>
-            <FontAwesomeIcon icon={faBookmark} onClick={() => handleBookmarkClick(props.blog)} className='bookmark-icon ml-2 bg-g hover:bg-danger-300' />
+            <FontAwesomeIcon icon={faBookmark} onClick={() => handleBookmarkClick(props.blog)} className='bookmark-icon ml-2 bg-g hover:bg-danger-300 hover:cursor-pointer' />
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Contents = (props) => {
         <h4 className='text md:text-lg lg:text-lg w-10/12'>{content}</h4>
       </div>
       <div>
-        <h4 className='text-md font-medium text-blue-600 py-3 rounded-md underline' onClick={() => handleMarkAsReadClick(duration)}>Mark as read</h4>
+        <h4 className='text-md font-medium text-blue-600 py-3 rounded-md underline  cursor-pointer' onClick={() => handleMarkAsReadClick(duration)}>Mark as read</h4>
       </div>
     </div>
   );

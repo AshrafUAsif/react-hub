@@ -26,6 +26,9 @@ const handleMarkAsReadClick = (duration) => {
 
   return (
     <div className='blog-container blog flex flex-wrap justify-between max-w-screen-xl mx-auto border-t border-gray-300 p-4'>
+      <div>
+      <p className='text-lg md:text-lg lg:text-lg font-small'>I have answered the four questions inside the four elements for making the assignment more cleaner</p>
+      </div>
       <div className='content-container w-full md:w-3/4 pr-4'>
         {
           blogs.map(blog => <Contents key={blog.id} blog ={blog} handleBookmarkClick={handleBookmarkClick} handleMarkAsReadClick={handleMarkAsReadClick}>

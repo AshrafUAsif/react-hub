@@ -20,7 +20,7 @@
           "avatar": "https://images.pexels.com/photos/4974911/pexels-photo-4974911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
-        "duration": 8,
+        "duration": 20,
         "content": "`useState` is a hook in React that allows functional components to have local state. It returns an array with two elements - the current state and a function to update that state."
       },
       {
@@ -32,7 +32,7 @@
           "avatar": "https://images.pexels.com/photos/5380644/pexels-photo-5380644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
-        "duration": 8,
+        "duration": 30,
         "content": "`useEffect` is a hook in React used for managing side effects. In addition to data loading, it can be used for tasks such as setting up event listeners, updating the document title, and subscribing to services."
       },
       {
@@ -44,7 +44,7 @@
           "avatar": "https://images.pexels.com/photos/7989029/pexels-photo-7989029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
-        "duration": 8,
+        "duration": 15,
         "content": "React is a JavaScript library for building user interfaces. It works by using a virtual DOM to efficiently update and render components based on changes in state or props, minimizing unnecessary updates and improving performance."
       }
     ]
