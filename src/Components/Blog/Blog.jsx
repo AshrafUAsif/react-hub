@@ -5,17 +5,23 @@ import Contents from '../Contents/Contents';
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
+  const [marked, setMarked] = useState([]);
 
   useEffect( () =>{
     fetch('blogs.json')
     .then(res => res.json())
     .then(data => setBlogs(data))
   },[])
+
+  const handleBookmarkClick = (blog) =>{
+    marked.push(blog);
+}
+
   return (
     <div className='blog-container blog flex flex-wrap justify-between max-w-screen-xl mx-auto border-t border-gray-300 p-4'>
       <div className='content-container w-full md:w-3/4 pr-4'>
         {
-          blogs.map(blog => <Contents key={blog.id} blog ={blog}>
+          blogs.map(blog => <Contents key={blog.id} blog ={blog} handleBookmarkClick={handleBookmarkClick}>
 
           </Contents>)
         }

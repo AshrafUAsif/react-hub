@@ -2,10 +2,10 @@
       {
         "id": 1,
         "title": "How to Learn React",
-        "image": "https://picsum.photos/400/200",
+        "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Ashraf Asif",
-          "avatar": "https://picsum.photos/40/40"
+          "avatar": "https://images.pexels.com/photos/7989025/pexels-photo-7989025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
         "duration": 10,
@@ -14,10 +14,10 @@
       {
         "id": 2,
         "title": "The Benefits of Yoga",
-        "image": "https://picsum.photos/400/200",
+        "image": "https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Shahriar Shimul",
-          "avatar": "https://picsum.photos/40/40"
+          "avatar": "https://images.pexels.com/photos/4974911/pexels-photo-4974911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
@@ -26,10 +26,10 @@
       {
         "id": 3,
         "title": "The Benefits of Yoga",
-        "image": "https://picsum.photos/400/200",
+        "image": "https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "author": {
           "name": "Tanmoy Hasan",
-          "avatar": "https://picsum.photos/40/40"
+          "avatar": "https://images.pexels.com/photos/5380644/pexels-photo-5380644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
@@ -38,10 +38,10 @@
       {
         "id": 4,
         "title": "The Benefits of Yoga",
-        "image": "https://picsum.photos/400/200",
+        "image": "https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Fahim Muntasir",
-          "avatar": "https://picsum.photos/40/40"
+          "avatar": "https://images.pexels.com/photos/7989029/pexels-photo-7989029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,

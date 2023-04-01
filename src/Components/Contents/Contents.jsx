@@ -4,12 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Contents = (props) => {
-    const { id, title, name, image, author, avatar, date, duration, content } = props.blog
-
-    const handleBookmarkClick = () =>{
-
-    }
-
+    const { id, title, image, author, date, duration, content } = props.blog
+    const handleBookmarkClick = props.handleBookmarkClick;
     return (
         <div className='contents'>
             <img src={image} className='w-2/3 md:w-2/3 lg:w-2/3 mr-4 py-5' />
@@ -22,14 +18,21 @@ const Contents = (props) => {
                     <div className='text-sm text-gray-600'>{date}</div>
                 </div>
                 <div className='flex flex-col-1 mx-auto'>
-                <div className='text-xs text-gray-600 mt-1 mx-auto'>{duration} mins read</div>
-                <div>
-                <FontAwesomeIcon icon={faBookmark} onClick={handleBookmarkClick} className='bookmark-icon ml-2 bg-g' />
+                    <div className='text-xs text-gray-600 mt-1 mx-auto'>{duration} mins read</div>
+                    <div>
+                        <FontAwesomeIcon icon={faBookmark} onClick={() => handleBookmarkClick(props.blog)} className='bookmark-icon ml-2 bg-g hover:bg-danger-300' />
+                    </div>
                 </div>
-                </div>
-                
             </div>
-            
+            <div>
+                <h2 className='text-xl md:text-2xl lg:text-3xl font-bold py-5'>{title}</h2>
+            </div>
+            <div>
+                <h4 className='text md:text-lg lg:text-xl'>{content}</h4>
+            </div>
+            <div>
+                <h4 className='text-md font-medium text-blue-600 py-3 rounded-md underline'>Mark as read</h4>
+            </div>
         </div>
     );
 };
