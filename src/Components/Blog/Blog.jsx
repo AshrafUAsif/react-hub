@@ -7,6 +7,7 @@ import Marked from '../../Marked/Marked';
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
   const [marked, setMarked] = useState([]);
+  const [totalSpentTime, setTotalSpentTime] = useState(0);
 
   useEffect( () =>{
     fetch('blogs.json')
@@ -18,21 +19,23 @@ const Blog = () => {
     // marked.push(blog);
     const newMarked = [...marked, blog];
     setMarked(newMarked);
-    
+}
+const handleMarkAsReadClick = (duration) => {
+  setTotalSpentTime(totalSpentTime + duration);
 }
 
   return (
     <div className='blog-container blog flex flex-wrap justify-between max-w-screen-xl mx-auto border-t border-gray-300 p-4'>
       <div className='content-container w-full md:w-3/4 pr-4'>
         {
-          blogs.map(blog => <Contents key={blog.id} blog ={blog} handleBookmarkClick={handleBookmarkClick}>
+          blogs.map(blog => <Contents key={blog.id} blog ={blog} handleBookmarkClick={handleBookmarkClick} handleMarkAsReadClick={handleMarkAsReadClick}>
 
           </Contents>)
         }
       </div>
       
-      <div className='bookmark-container w-full md:w-1/4 py-5 sticky top-10'>
-        <Marked marked={marked}></Marked>    
+      <div className='bookmark-container w-full md:w-1/4 py-5'>
+        <Marked marked={marked} totalSpentTime={totalSpentTime}></Marked>    
       </div>
     </div>
   );

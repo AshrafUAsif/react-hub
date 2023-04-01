@@ -1,7 +1,7 @@
  [
       {
         "id": 1,
-        "title": "How to Learn React",
+        "title": "Difference between Props and states",
         "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Ashraf Asif",
@@ -9,11 +9,11 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 10,
-        "content": "Learn React by building reusable UI components with JavaScript."
+        "content": "The main difference between props and state is that props are passed down to a component from its parent component and are read-only, whereas state is managed within a component and can be updated using the `setState` method."
       },
       {
         "id": 2,
-        "title": "The Benefits of Learning React",
+        "title": "How does useState really work?",
         "image": "https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Shahriar Shimul",
@@ -21,11 +21,11 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
-        "content": "Learning React can help you become a more efficient and effective web developer by enabling you to create complex and dynamic user interfaces with ease, while also increasing your career prospects in the job market due to its popularity and demand."
+        "content": "`useState` is a hook in React that allows functional components to have local state. It returns an array with two elements - the current state and a function to update that state."
       },
       {
         "id": 3,
-        "title": "How difficult is React?",
+        "title": "Beside data load work in which work does useEffect used?",
         "image": "https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "author": {
           "name": "Tanmoy Hasan",
@@ -33,11 +33,11 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
-        "content": "React can be challenging for beginners due to its component-based architecture and the need to learn additional libraries like Redux, but with sufficient practice and resources, it can be mastered by developers of all levels."
+        "content": "`useEffect` is a hook in React used for managing side effects. In addition to data loading, it can be used for tasks such as setting up event listeners, updating the document title, and subscribing to services."
       },
       {
         "id": 4,
-        "title": "Is React Useful?",
+        "title": "How does React work?",
         "image": "https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Fahim Muntasir",
@@ -45,7 +45,7 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
-        "content": "Yes, React is a highly useful and popular JavaScript library for building dynamic and interactive user interfaces and web applications. It is widely adopted by developers and businesses for its efficient rendering, reusable components, and large developer community."
+        "content": "React is a JavaScript library for building user interfaces. It works by using a virtual DOM to efficiently update and render components based on changes in state or props, minimizing unnecessary updates and improving performance."
       }
     ]
   
