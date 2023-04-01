@@ -18,6 +18,7 @@ const Blog = () => {
     // marked.push(blog);
     const newMarked = [...marked, blog];
     setMarked(newMarked);
+    
 }
 
   return (

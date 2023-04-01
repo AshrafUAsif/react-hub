@@ -9,11 +9,11 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 10,
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "content": "Learn React by building reusable UI components with JavaScript."
       },
       {
         "id": 2,
-        "title": "The Benefits of Yoga",
+        "title": "The Benefits of Learning React",
         "image": "https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Shahriar Shimul",
@@ -21,11 +21,11 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
-        "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        "content": "Learning React can help you become a more efficient and effective web developer by enabling you to create complex and dynamic user interfaces with ease, while also increasing your career prospects in the job market due to its popularity and demand."
       },
       {
         "id": 3,
-        "title": "The Benefits of Yoga",
+        "title": "How difficult is React?",
         "image": "https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "author": {
           "name": "Tanmoy Hasan",
@@ -33,11 +33,11 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
-        "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        "content": "React can be challenging for beginners due to its component-based architecture and the need to learn additional libraries like Redux, but with sufficient practice and resources, it can be mastered by developers of all levels."
       },
       {
         "id": 4,
-        "title": "The Benefits of Yoga",
+        "title": "Is React Useful?",
         "image": "https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author": {
           "name": "Fahim Muntasir",
@@ -45,7 +45,7 @@
         },
         "date": "April 1 (2 Days ago)",
         "duration": 8,
-        "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        "content": "Yes, React is a highly useful and popular JavaScript library for building dynamic and interactive user interfaces and web applications. It is widely adopted by developers and businesses for its efficient rendering, reusable components, and large developer community."
       }
     ]
   
