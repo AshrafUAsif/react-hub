@@ -1,7 +1,14 @@
 import React from 'react';
+import './Contents.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Contents = (props) => {
     const { id, title, name, image, author, avatar, date, duration, content } = props.blog
+
+    const handleBookmarkClick = () =>{
+
+    }
 
     return (
         <div className='contents'>
@@ -14,7 +21,13 @@ const Contents = (props) => {
                     <h4 className='text-base font-medium'>{author.name}</h4>
                     <div className='text-sm text-gray-600'>{date}</div>
                 </div>
+                <div className='flex flex-col-1 mx-auto'>
                 <div className='text-xs text-gray-600 mt-1 mx-auto'>{duration} mins read</div>
+                <div>
+                <FontAwesomeIcon icon={faBookmark} onClick={handleBookmarkClick} className='bookmark-icon ml-2 bg-g' />
+                </div>
+                </div>
+                
             </div>
             
         </div>
