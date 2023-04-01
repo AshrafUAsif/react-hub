@@ -30,7 +30,7 @@ const Contents = (props) => {
                 <h2 className='text-xl md:text-2xl lg:text-3xl font-bold py-5'>{title}</h2>
             </div>
             <div>
-                <h4 className='text md:text-lg lg:text-xl'>{content}</h4>
+                <h4 className='text md:text-lg lg:text-xl w-10/12'>{content}</h4>
             </div>
             <div>
                 <h4 className='text-md font-medium text-blue-600 py-3 rounded-md underline'>Mark as read</h4>
