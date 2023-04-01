@@ -14,7 +14,9 @@ const Blog = () => {
   },[])
 
   const handleBookmarkClick = (blog) =>{
-    marked.push(blog);
+    // marked.push(blog);
+    const newMarked = [...marked, blog];
+    setMarked(newMarked);
 }
 
   return (
@@ -31,7 +33,7 @@ const Blog = () => {
       <h4 className='text-lg font-medium text-purple-700 py-2 px-4 rounded-md border border-purple-700 bg-purple-100'>Spent time on read:</h4>
 
         <br />
-        <h4 className='text-lg font-medium' style={{ background: 'rgba(17, 17, 17, 0.05)', borderRadius: '8px' }}>Bookmarked Blogs:</h4>
+        <h4 className='text-lg font-medium' style={{ background: 'rgba(17, 17, 17, 0.05)', borderRadius: '8px' }}>Bookmarked Blogs: {marked.length}</h4>
       </div>
     </div>
   );
