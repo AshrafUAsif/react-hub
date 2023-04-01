@@ -3,7 +3,7 @@ import React from 'react';
 const Marked = ({ marked, totalSpentTime }) => {
     return (
         <div className='sticky top-0'>
-            <h4 className='text-lg font-medium text-purple-700 py-2 px-4 rounded-md border border-purple-700 bg-purple-100 hover:bg-blue-200'>Spent time on read: {totalSpentTime}</h4>
+            <h4 className='text-lg font-medium text-purple-700 py-2 px-4 rounded-md border border-purple-700 bg-purple-100 hover:bg-blue-300'>Spent time on read: {totalSpentTime}</h4>
 
             <br />
             <div>
